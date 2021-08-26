@@ -1,26 +1,21 @@
-// // variable
-// let name = "Tushar",
-//   sirname = "Rao";
-// let age = 30;
-// let isApproved = false;
-// let education = null;
+// operators
+// 1 Arithmetic
+let x = 4;
+let y = 5;
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(y % x);
+console.log(x ** y);
 
-// // constant
-// const interestRate = 6.3;
-// console.log(interestRate);
+// increament
+console.log(x++);
 
-// typeof operator
+// decreament
+console.log(--x);
 
-// object
-
-let person = {
-  name: "Tushar",
-  age: 25,
-};
-
-// Dot notation
-console.log(person.name);
-
-// Bracket Notatio n
-person["name"] = "Mary";
-console.log(person.name);
+// 2 Assignment
+// 3 Comparison
+// 4 Logical
+// 5 Bitwise

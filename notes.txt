@@ -1,0 +1,65 @@
+// variable
+let name = "Tushar",
+  sirname = "Rao";
+let age = 30;
+let isApproved = false;
+let education = null;
+
+// constant
+const interestRate = 6.3;
+console.log(interestRate);
+
+// typeof operator
+
+// object
+
+let person = {
+  name: "Tushar",
+  age: 25,
+};
+
+// Dot notation
+person.name = "Rao";
+console.log(person.name);
+
+// Bracket Notatio n
+person["name"] = "Mary";
+console.log(person.name);
+
+// array
+let selectedColors = ["Red", "Blue", "Green"];
+selectedColors[3] = 3; //expilicitly adding value
+console.log(selectedColors.length); //length of array
+
+
+// performing a task
+function greet(name, lastName) {
+  console.log("Hello " + name + " " + lastName);
+}
+
+// calculate value
+function square(number) {
+  return number * number;
+}
+
+console.log(square(2));
+// function calling
+greet("tushar", "Rao");
+greet("Vaibhav");
+
+// operators
+// 1 Arithmetic
+let x = 4;
+let y = 5;
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(y % x);
+console.log(x ** y);
+
+// increament
+console.log(x++);
+
+// decreament
+console.log(--x);
