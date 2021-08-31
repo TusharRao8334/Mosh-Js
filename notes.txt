@@ -63,3 +63,38 @@ console.log(x++);
 
 // decreament
 console.log(--x);
+
+// 2 Assignment
+let x = 10;
+
+x += 5; // x = x + 5;
+
+// 3 Comparison
+let x = 1;
+
+//relational operator
+console.log(x > 0);
+console.log(x >= 0);
+console.log(x < 0);
+console.log(x <= 0);
+
+// equality
+console.log(x === 1);
+console.log(x !== 1);
+
+// strict Equality (type + value)
+console.log(1 === 1);
+console.log("1" === 1);
+
+// loose equality (only check value)
+console.log(1 == 1);
+console.log("1" == 1);
+console.log(true == 1);
+
+// ternery operator
+//  if a customer has more than 100 points,
+// they are a 'gold' member otherwise
+// they are 'silver
+let point = 101;
+let type = point > 100 ? "Gold" : "Silver";
+console.log(type);
