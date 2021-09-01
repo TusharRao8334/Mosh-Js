@@ -98,3 +98,53 @@ console.log(true == 1);
 let point = 101;
 let type = point > 100 ? "Gold" : "Silver";
 console.log(type);
+
+// 4 Logical
+// logical AND (&&)
+
+let highIncome = false;
+let goodCibil = true;
+let eligibleForLoan = highIncome && goodCibil;
+console.log(eligibleForLoan);
+
+// logical OR (||)
+eligibleForLoan = highIncome || goodCibil;
+console.log(eligibleForLoan);
+
+// NOT (!)
+let applicationRefused = !eligibleForLoan;
+console.log(applicationRefused);
+
+
+// falsy (false)
+// undefined
+// null
+// 0
+// false
+// ''
+// NaN
+
+// anything that is not falsy -> truthy
+
+// short-circuiting
+
+
+// 5 Bitwise
+// bitwise OR
+
+console.log(1 | 2);
+
+// bitwise AND
+console.log(1 & 2);
+
+
+// swap two variables
+let a = "red";
+let b = "blue";
+
+let temp = a;
+a = b;
+b = temp;
+
+console.log(a);
+console.log(b);
